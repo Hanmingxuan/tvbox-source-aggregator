@@ -280,10 +280,10 @@ ${sharedStyles}
 
   <!-- Tabs -->
   <div class="tabs">
-    <div class="tab active" data-tab="sites" onclick="switchTab('sites')">Sites <span class="badge" id="badgeSites">0</span></div>
-    <div class="tab" data-tab="parses" onclick="switchTab('parses')">Parses <span class="badge" id="badgeParses">0</span></div>
-    <div class="tab" data-tab="lives" onclick="switchTab('lives')">Lives <span class="badge" id="badgeLives">0</span></div>
-    <div class="tab" data-tab="regex" onclick="switchTab('regex')">Regex Rules <span class="badge" id="badgeRegex">0</span></div>
+    <div class="tab active" data-tab="sites" onclick="switchTab('sites')"><span data-i18n="sites">Sites</span> <span class="badge" id="badgeSites">0</span></div>
+    <div class="tab" data-tab="parses" onclick="switchTab('parses')"><span data-i18n="parses">Parses</span> <span class="badge" id="badgeParses">0</span></div>
+    <div class="tab" data-tab="lives" onclick="switchTab('lives')"><span data-i18n="lives">Lives</span> <span class="badge" id="badgeLives">0</span></div>
+    <div class="tab" data-tab="regex" onclick="switchTab('regex')"><span data-i18n="regexTab">Regex Rules</span> <span class="badge" id="badgeRegex">0</span></div>
   </div>
 
   <!-- Search -->
@@ -366,6 +366,7 @@ const _translations = {
     selectAll:'Select all',
     batchBlock:'Batch Block', batchSelected:'selected', batchCancel:'Cancel',
     typePrefix:'Type ',
+    regexTab:'Regex Rules',
     regexDelete:'Delete', regexNoRules:'No regex rules. Add a pattern above to auto-block matching sites.',
     regexMatches:' sites would be blocked: ', regexNoMatch:'No matches found', regexError:'Error: ',
     regexTesting:'Testing...',
@@ -395,6 +396,7 @@ const _translations = {
     selectAll:'全选',
     batchBlock:'批量屏蔽', batchSelected:'已选', batchCancel:'取消',
     typePrefix:'类型 ',
+    regexTab:'正则规则',
     regexDelete:'删除', regexNoRules:'暂无正则规则，在上方添加规则可批量自动屏蔽匹配的站点',
     regexMatches:'个站点将被屏蔽：', regexNoMatch:'未匹配到任何站点', regexError:'错误：',
     regexTesting:'测试中...',
